@@ -7,20 +7,6 @@
       "dataMax": 20231124,
       "dataMin": 20220203
     },
-    "A1AP34": {
-      "codNeg": "A1AP34",
-      "nomeCurto": "ADVANCE AUTO",
-      "especPapel": "DRN",
-      "dataMax": 20231124,
-      "dataMin": 20200207
-    },
-    "A1CR34": {
-      "codNeg": "A1CR34",
-      "nomeCurto": "AMCOR PLC",
-      "especPapel": "DRN",
-      "dataMax": 20231122,
-      "dataMin": 20201029
-    },
     "A1DI34": {
       "codNeg": "A1DI34",
       "nomeCurto": "ANALOG DEVIC",
