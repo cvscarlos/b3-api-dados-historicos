@@ -26,7 +26,8 @@
     "unicorn/prevent-abbreviations": "off",
     "unicorn/no-array-for-each": "off",
     "unicorn/no-process-exit": "off",
-    "unicorn/prefer-top-level-await": "off"
+    "unicorn/prefer-top-level-await": "off",
+    "unicorn/catch-error-name": "off"
   },
   "overrides": [
     {

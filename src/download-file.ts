@@ -10,18 +10,12 @@ async function downloadFile(date: string) {
 
   const downloadedFile = path.join(TXT_DIR, `COTAHIST_${date}.ZIP`);
 
-  let response = null;
-  try {
-    logInfo(`[${date}] Downloading zip file...`);
-    response = await axios({ method: 'get', url, responseType: 'stream' });
-  } catch (error) {
-    logError(`[${date}] ${String(error)}`);
-    return;
-  }
+  logInfo(`[${date}] Downloading zip file...`);
+  const response = await axios({ method: 'get', url, responseType: 'stream' });
 
   logInfo(`[${date}] Starting write stream...`);
   if (!(response?.data && isStream(response.data)))
-    throw new Error(`[${date}] Response data is not a stream`);
+    throw new Error(`Response data is not a stream`);
 
   const writer = fs.createWriteStream(downloadedFile);
   response.data.pipe(writer);
@@ -50,7 +44,7 @@ function isStream(data: unknown): data is NodeJS.ReadableStream {
 }
 
 const dateNow = Date.now();
-const last60DaysArray = Array.from({ length: 60 }, (_, i) => {
+const last30DaysArray = Array.from({ length: 30 }, (_, i) => {
   const date = new Date(dateNow);
   date.setDate(date.getDate() - i);
   const day = date.getDate().toString().padStart(2, '0');
@@ -59,7 +53,20 @@ const last60DaysArray = Array.from({ length: 60 }, (_, i) => {
   return `D${day}${month}${year}`;
 });
 
-Promise.all(last60DaysArray.map((d) => downloadFile(d))).catch((error) => {
-  logError(String(error));
-  process.exit(1);
-});
+function dontStopIfError(error: Error, date: string) {
+  logError(`[${date}] ${String(error)}`);
+}
+
+Promise.all(
+  last30DaysArray.map((d) =>
+    downloadFile(d).catch((e) => dontStopIfError(e, d)),
+  ),
+)
+  .then(() => {
+    logInfo('All files downloaded successfully');
+    process.exit(0);
+  })
+  .catch((e) => {
+    logError(e);
+    process.exit(1);
+  });
