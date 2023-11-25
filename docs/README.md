@@ -26,7 +26,8 @@ Exemplo de resposta:
       "codNeg": "PETR4", // Código de negociação do ativo
       "nomeCurto": "PETROBRAS", // Nome curto do ativo
       "especPapel": "PN N2", // Especificação do ativo
-      "dataMax": 20231124, // Maior data existente nos dados tratados p/ esse ativo
+      // Datas no formato YYYYMMDD
+      "dataMax": 20231124, // Maior data existente nos dados tratados p/ esse ativo. 
       "dataMin": 20100104 // Menor data existente nos dados tratados p/ esse ativo
     }
   }
