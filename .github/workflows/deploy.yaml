@@ -28,7 +28,6 @@ jobs:
         with:
           path: ${{ steps.npm-cache-dir.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-20
       
       - name: Instala as dependências
         if: steps.npm-cache.outputs.cache-hit != 'true'
