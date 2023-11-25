@@ -1,0 +1,37 @@
+name: Deploy API
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0,12 * * *' # every 12 hours
+
+jobs:
+  deploy-api:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Instala as dependências
+        run: npm install
+
+      - name: Download dos arquivos crús
+        run: npx ts-node -T src/download-file.ts
+
+      - name: Converte os arquivos crús para JSON
+        run: npx ts-node -T src/parse-file.ts
+
+      - name: Commit & Push das alterações
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          message: 'chore: API auto update (${date})'
+
+
+      

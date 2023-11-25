@@ -44,7 +44,7 @@ function isStream(data: unknown): data is NodeJS.ReadableStream {
 }
 
 const dateNow = Date.now();
-const last30DaysArray = Array.from({ length: 30 }, (_, i) => {
+const last5DaysArray = Array.from({ length: 5 }, (_, i) => {
   const date = new Date(dateNow);
   date.setDate(date.getDate() - i);
   const day = date.getDate().toString().padStart(2, '0');
@@ -58,7 +58,7 @@ function dontStopIfError(error: Error, date: string) {
 }
 
 Promise.all(
-  last30DaysArray.map((d) =>
+  last5DaysArray.map((d) =>
     downloadFile(d).catch((e) => dontStopIfError(e, d)),
   ),
 )
