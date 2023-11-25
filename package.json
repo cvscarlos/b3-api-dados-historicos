@@ -3,7 +3,8 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "ts-node -T ./src/download-file.ts",
+    "parse": "ts-node -T ./src/parser.ts"
   },
   "license": "MIT",
   "dependencies": {
