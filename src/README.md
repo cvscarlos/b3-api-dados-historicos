@@ -1,7 +1,7 @@
 <div align="center"><img alt="B3 Logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/B3_logo.png" width="160" /></div>
 
 <h1 align="center">B3 Historical Quote Data API</h1>
-<p align="center">A JSON file based API for historical stock quote data from the [B3](http://www.b3.com.br/en_us/) Brazilian Stock Exchange.</p>
+<p align="center">A JSON file based API for historical stock quote data from the <a href="http://www.b3.com.br/en_us/" target="_blank">B3 Brazilian Stock Exchange</a>.</p>
 
 ---
 
