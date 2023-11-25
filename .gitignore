@@ -3,7 +3,8 @@ tmp/
 .DS_Store
 Thumbs.db
 
-/docs/b3-txt-files/
+# Download directory
+/docs/b3-txt-files/*
 !/docs/b3-txt-files/parsed-files/
-/docs/b3-txt-files/parsed-files/
+/docs/b3-txt-files/parsed-files/*
 !/docs/b3-txt-files/parsed-files/.gitkeep
