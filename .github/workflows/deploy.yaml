@@ -27,18 +27,11 @@ jobs:
       - name: Converte os arquivos crús para JSON
         run: npm run parse
 
-      - name: Commit dos arquivos
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-
       - name: Commit & Push das alterações
-        uses: actions-js/push@master
+        uses: actions-js/push@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          message: 'chore: API auto update (${date})'
 
 
       

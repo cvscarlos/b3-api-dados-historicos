@@ -7,20 +7,6 @@
       "dataMax": 20231124,
       "dataMin": 20220203
     },
-    "A1DI34": {
-      "codNeg": "A1DI34",
-      "nomeCurto": "ANALOG DEVIC",
-      "especPapel": "DRN",
-      "dataMax": 20231024,
-      "dataMin": 20200218
-    },
-    "A1DM34": {
-      "codNeg": "A1DM34",
-      "nomeCurto": "ARCHER DANIE",
-      "especPapel": "DRN",
-      "dataMax": 20231124,
-      "dataMin": 20200106
-    },
     "A1EG34": {
       "codNeg": "A1EG34",
       "nomeCurto": "AEGON NV",
