@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0,12 * * *' # every 12 hours
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy-api:
@@ -23,6 +26,12 @@ jobs:
 
       - name: Converte os arquivos crús para JSON
         run: npm run parse
+
+      - name: Commit dos arquivos
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
 
       - name: Commit & Push das alterações
         uses: actions-js/push@master
