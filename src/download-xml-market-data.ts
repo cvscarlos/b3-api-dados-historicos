@@ -1,14 +1,14 @@
 import path from 'node:path';
-import { TXT_DIR } from './config';
+import { RAW_FILES_DIR } from './config';
 import { downloader } from './downloader';
 
-const xyz = ['SPRE231127'];
+const xyz = ['IN231128'];
 
 const tasks = Object.fromEntries(
-  xyz.map((date) => {
-    const url = `https://www.b3.com.br/pesquisapregao/download?filelist=${date}.zip,`;
-    const destinationFilePath = path.join(TXT_DIR, `${date}.zip.zip`);
-    return [date, { url, destinationFilePath }];
+  xyz.map((fileKey) => {
+    const url = `https://www.b3.com.br/pesquisapregao/download?filelist=${fileKey}.zip,`;
+    const destinationFilePath = path.join(RAW_FILES_DIR, `${fileKey}.zip.zip`);
+    return [fileKey, { url, destinationFilePath }];
   }),
 );
 downloader(tasks);

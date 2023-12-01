@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import decompress from 'decompress';
 import axios from 'axios';
-import { TXT_DIR } from './config';
+import { RAW_FILES_DIR } from './config';
 import { logError, logInfo } from './logger';
 
 const zipExtensionRegex = /\.zip$/i;
@@ -28,13 +28,24 @@ async function downloadFile(
 
   logInfo(`[${taskId}] Zip file downloaded successfully`);
 
-  await decompress(destinationFilePath, TXT_DIR);
+  await decompress(destinationFilePath, RAW_FILES_DIR);
   fs.unlinkSync(destinationFilePath);
 
   const secondaryFilePath = destinationFilePath.replace(zipExtensionRegex, '');
   if (fs.existsSync(secondaryFilePath)) {
-    await decompress(secondaryFilePath, TXT_DIR);
+    await decompress(secondaryFilePath, RAW_FILES_DIR);
     fs.unlinkSync(secondaryFilePath);
+  }
+
+  const thirdFilePath = secondaryFilePath.replace(zipExtensionRegex, '');
+  if (
+    fs.existsSync(thirdFilePath) &&
+    fs.lstatSync(thirdFilePath).isDirectory()
+  ) {
+    fs.readdirSync(thirdFilePath).forEach((file) => {
+      fs.renameSync(`${thirdFilePath}/${file}`, `${RAW_FILES_DIR}/${file}`);
+    });
+    fs.rmdirSync(thirdFilePath);
   }
 
   logInfo(`[${taskId}] Zip file extracted successfully`);

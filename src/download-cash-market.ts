@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { TXT_DIR } from './config';
+import { RAW_FILES_DIR } from './config';
 import { downloader } from './downloader';
 
 const dateNow = Date.now();
@@ -15,7 +15,7 @@ const last5DaysArray = Array.from({ length: 5 }, (_, i) => {
 const tasks = Object.fromEntries(
   last5DaysArray.map((date) => {
     const url = `https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_${date}.ZIP`;
-    const destinationFilePath = path.join(TXT_DIR, `COTAHIST_${date}.ZIP`);
+    const destinationFilePath = path.join(RAW_FILES_DIR, `COTAHIST_${date}.ZIP`);
     return [date, { url, destinationFilePath }];
   }),
 );

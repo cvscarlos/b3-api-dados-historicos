@@ -4,17 +4,21 @@
   "version": "1.0.0",
   "scripts": {
     "download": "ts-node -T ./src/download-cash-market.ts",
-    "parse": "ts-node -T ./src/parser.ts"
+    "parse": "ts-node -T ./src/parser-txt.ts",
+    "download-xml": "ts-node -T ./src/download-xml-market-data.ts",
+    "parse-xml": "ts-node -T ./src/parser-xml.ts"
   },
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
     "decompress": "^4.2.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/decompress": "^4.2.7",
     "@types/node": "^20.9.3",
+    "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "eslint": "^8.54.0",
     "eslint-config-airbnb-base": "^15.0.0",

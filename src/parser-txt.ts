@@ -1,15 +1,15 @@
-import { readFileSync, readdirSync, renameSync, writeFileSync } from 'node:fs';
+import { readFileSync, renameSync } from 'node:fs';
 import path from 'node:path';
-import { DOCS_DIR } from './config';
-import { logError, logInfo } from './logger';
+import { PARSED_RAW_FILES_DIR } from './config';
+import { logInfo } from './logger';
+import { getFirstAvailabeFile, writeToFile } from './parser-utils';
+import { TickerDateRange } from './types';
 
 type TickerCashApi = {
   codNeg: string;
   nomeCurto: string;
   especPapel: string;
-  dataMax: number;
-  dataMin: number;
-};
+} & TickerDateRange;
 type TickersCashApi = Record<string, TickerCashApi>;
 
 type ParsedTxtLine = {
@@ -26,20 +26,15 @@ type ParsedTxtLine = {
   precoMinimo: number;
 };
 
-type ApiBody = {
-  [key: string]: Record<string, unknown>;
-};
-
 function parseFile() {
-  const { txtFilePath, filename } = getFirstAvailabeTxtFile();
-  if (!txtFilePath) {
+  const { filePath, filename } = getFirstAvailabeFile('.TXT');
+  if (!filePath) {
     logInfo('No more txt files to parse');
     return false;
   }
-  const txtFile = readFileSync(txtFilePath, 'utf8');
+  const txtFile = readFileSync(filePath, 'utf8');
 
   const tickersCashApi: TickersCashApi = {};
-  const dataToLog = [];
 
   const txtLines = txtFile.split('\n');
   for (let i = 0, l = txtLines.length; i < l; i++) {
@@ -52,8 +47,6 @@ function parseFile() {
 
     if (parsedTxtLine.tipoMercado === 10)
       getTickerFileData(parsedTxtLine, tickersCashApi);
-
-    dataToLog.push(parsedTxtLine);
   }
 
   writeToFile<TickersCashApi>(
@@ -61,22 +54,10 @@ function parseFile() {
     tickersCashApi,
   );
 
-  renameSync(
-    txtFilePath,
-    path.join(DOCS_DIR, `/b3-txt-files/parsed-files`, String(filename)),
-  );
+  renameSync(filePath, path.join(PARSED_RAW_FILES_DIR, String(filename)));
 
   logInfo('File parsed successfully');
   return true;
-}
-
-function getFirstAvailabeTxtFile() {
-  const files = readdirSync(path.join(DOCS_DIR, '/b3-txt-files'));
-  const txtFile = files.find((file) => file.endsWith('.TXT'));
-  const filePath = txtFile
-    ? path.join(DOCS_DIR, '/b3-txt-files', txtFile)
-    : null;
-  return { txtFilePath: filePath, filename: txtFile };
 }
 
 const spacesRegex = /\s+/g;
@@ -113,44 +94,6 @@ function getTickerFileData(
       txtFileLine.data,
     ),
   };
-}
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function writeToFile<T extends Record<string, Record<string, any>>>(
-  filePath: string,
-  newData: T,
-) {
-  const currentApiData = jsonParse(
-    readFileSync(path.join(DOCS_DIR, filePath), 'utf8'),
-  );
-
-  const data = currentApiData.data as T;
-  Object.keys(newData).forEach((key) => {
-    const newItem = newData[key];
-    const item = data[key] || newItem;
-    item.dataMax = Math.max(item?.dataMax || 0, newItem.dataMax);
-    item.dataMin = Math.min(item?.dataMin || 0, newItem.dataMin);
-  });
-
-  const sorted = Object.entries(data).sort();
-  const sortedData = Object.fromEntries(sorted);
-
-  writeFileSync(
-    path.join(DOCS_DIR, filePath),
-    JSON.stringify({ data: sortedData }, null, 2),
-  );
-}
-
-function jsonParse(data: string): ApiBody {
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const json = JSON.parse(data) as Record<string, any>;
-    if (!json.data) json.data = {};
-    return json;
-  } catch (error) {
-    logError(error);
-    return { data: {} };
-  }
 }
 
 while (parseFile()) {
