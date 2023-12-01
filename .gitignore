@@ -4,7 +4,7 @@ tmp/
 Thumbs.db
 
 # Download directory
-/docs/b3-txt-files/*
-!/docs/b3-txt-files/parsed-files/
-/docs/b3-txt-files/parsed-files/*
-!/docs/b3-txt-files/parsed-files/.gitkeep
+/docs/b3-raw-files/*
+!/docs/b3-raw-files/parsed-files/
+/docs/b3-raw-files/parsed-files/*
+!/docs/b3-raw-files/parsed-files/.gitkeep
