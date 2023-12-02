@@ -16,7 +16,7 @@ Essa API possui dados de 2010 até dias atuais.
 ## Endpoints
 
 ### Lista de ativos do mercado à vista
-**GET:** `https://cvscarlos.github.io/b3-api-dados-historicos/api/v1/tickers-cash-market.json`
+**GET:** https://cvscarlos.github.io/b3-api-dados-historicos/api/v1/tickers-cash-market.json
 
 Exemplo de resposta:
 ```jsonc

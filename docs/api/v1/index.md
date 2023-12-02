@@ -1,4 +1,4 @@
 ## Endpoints
 
-- [docs/api/v1/tickers-cash-market.json](docs/api/v1/tickers-cash-market.json)
-- [docs/api/v1/tickers-ETF.json](docs/api/v1/tickers-ETF.json)
+- [tickers-cash-market.json](tickers-cash-market.json)
+- [tickers-ETF.json](tickers-ETF.json)
