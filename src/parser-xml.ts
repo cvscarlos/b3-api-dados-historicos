@@ -71,7 +71,8 @@ async function parseFile() {
   const itemByTicker: ETFsAPI = {};
   for (let i = 0, l = forwardMarketList.length; i < l; i++) {
     const parsedItem = parseItem(forwardMarketList[i]);
-    itemByTicker[parsedItem.codNeg] = parsedItem;
+    const key = `${parsedItem.codNeg}-${parsedItem.nome}`;
+    itemByTicker[key] = parsedItem;
   }
 
   writeToFile<ETFsAPI>('/api/v1/tickers-ETF.json', itemByTicker);

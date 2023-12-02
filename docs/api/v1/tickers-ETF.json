@@ -1,66 +1,72 @@
 {
   "data": {
-    "B5MB11": {
+    "B5MB11-BRAD IMA-B5MF11": {
       "codNeg": "B5MB11",
       "nome": "BRAD IMA-B5MF11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "B5P211": {
+    "B5P211-IT NOW B5P2 F11": {
       "codNeg": "B5P211",
       "nome": "IT NOW B5P2 F11",
       "dataMax": 99991231,
       "dataMin": 20201116
     },
-    "BDAP11": {
+    "BDAP11-BB ETF DAP5 F11": {
       "codNeg": "BDAP11",
       "nome": "BB ETF DAP5 F11",
       "dataMax": 99991231,
       "dataMin": 20230926
     },
-    "DEBB11": {
+    "DEBB11-BTG DEB DI F11": {
       "codNeg": "DEBB11",
       "nome": "BTG DEB DI F11",
       "dataMax": 99991231,
       "dataMin": 20220622
     },
-    "FIXA11": {
+    "FIXA11-BB FIXA11 F11": {
       "codNeg": "FIXA11",
       "nome": "BB FIXA11 F11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "IB5M11": {
+    "FIXA11-MIRAE FIXA F11": {
+      "codNeg": "FIXA11",
+      "nome": "MIRAE FIXA F11",
+      "dataMax": 99991231,
+      "dataMin": 20200629
+    },
+    "IB5M11-IT NOW IB5M F11": {
       "codNeg": "IB5M11",
       "nome": "IT NOW IB5M F11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "IMAB11": {
+    "IMAB11-IT NOW IMA-BF11": {
       "codNeg": "IMAB11",
       "nome": "IT NOW IMA-BF11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "IMBB11": {
+    "IMBB11-BRAD IMA-B F11": {
       "codNeg": "IMBB11",
       "nome": "BRAD IMA-B F11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "IRFM11": {
+    "IRFM11-IT NOW IRF-MF11": {
       "codNeg": "IRFM11",
       "nome": "IT NOW IRF-MF11",
       "dataMax": 99991231,
       "dataMin": 20200629
     },
-    "LFTS11": {
+    "LFTS11-INVESTO LFTSF11": {
       "codNeg": "LFTS11",
       "nome": "INVESTO LFTSF11",
       "dataMax": 99991231,
       "dataMin": 20221108
     },
-    "NTNS11": {
+    "NTNS11-INVESTO NTNSF11": {
       "codNeg": "NTNS11",
       "nome": "INVESTO NTNSF11",
       "dataMax": 99991231,
