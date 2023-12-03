@@ -243,7 +243,7 @@
       "nomeCurto": "AO SMITH COR",
       "especPapel": "DRN",
       "dataMax": 20231031,
-      "dataMin": 0
+      "dataMin": 20200226
     },
     "A1PA34": {
       "codNeg": "A1PA34",
@@ -341,7 +341,7 @@
       "nomeCurto": "AVERY DENNIS",
       "especPapel": "DRN",
       "dataMax": 20230908,
-      "dataMin": 0
+      "dataMin": 20200303
     },
     "A1WK34": {
       "codNeg": "A1WK34",
@@ -369,7 +369,7 @@
       "nomeCurto": "AFYA LTD",
       "especPapel": "DRN",
       "dataMax": 20231130,
-      "dataMin": 0
+      "dataMin": 20230724
     },
     "A2LC34": {
       "codNeg": "A2LC34",
@@ -523,7 +523,7 @@
       "nomeCurto": "ABC BRASIL",
       "especPapel": "DIR PRE N2",
       "dataMax": 20230731,
-      "dataMin": 0
+      "dataMin": 20120706
     },
     "ABCB4": {
       "codNeg": "ABCB4",
@@ -866,7 +866,7 @@
       "nomeCurto": "SPTURIS",
       "especPapel": "PNA",
       "dataMax": 20230822,
-      "dataMin": 0
+      "dataMin": 20100308
     },
     "AHEB6": {
       "codNeg": "AHEB6",
@@ -1230,7 +1230,7 @@
       "nomeCurto": "FII ANCAR IC",
       "especPapel": "CI MB",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20100311
     },
     "ANDG3B": {
       "codNeg": "ANDG3B",
@@ -2315,7 +2315,7 @@
       "nomeCurto": "FDC INFRA",
       "especPapel": "FIDC",
       "dataMax": 20231127,
-      "dataMin": 0
+      "dataMin": 20200717
     },
     "BBVH12": {
       "codNeg": "BBVH12",
@@ -2917,7 +2917,7 @@
       "nomeCurto": "FT TECH ALPH",
       "especPapel": "DRE ED",
       "dataMax": 20230829,
-      "dataMin": 0
+      "dataMin": 20210916
     },
     "BFTC39": {
       "codNeg": "BFTC39",
@@ -3036,14 +3036,14 @@
       "nomeCurto": "BKR CH JAPAN",
       "especPapel": "DRE",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20230713
     },
     "BHEZ39": {
       "codNeg": "BHEZ39",
       "nomeCurto": "BKR CH EUROZ",
       "especPapel": "DRE",
       "dataMax": 20231027,
-      "dataMin": 0
+      "dataMin": 20230717
     },
     "BHGR1": {
       "codNeg": "BHGR1",
@@ -3295,7 +3295,7 @@
       "nomeCurto": "BKR OIL GAS",
       "especPapel": "DRE",
       "dataMax": 20231103,
-      "dataMin": 0
+      "dataMin": 20230717
     },
     "BIET39": {
       "codNeg": "BIET39",
@@ -3344,21 +3344,21 @@
       "nomeCurto": "BKR CYBTECH",
       "especPapel": "DRE",
       "dataMax": 20231107,
-      "dataMin": 0
+      "dataMin": 20220811
     },
     "BIHE39": {
       "codNeg": "BIHE39",
       "nomeCurto": "BKR PHARMACL",
       "especPapel": "DRE",
       "dataMax": 20230831,
-      "dataMin": 0
+      "dataMin": 20230727
     },
     "BIHF39": {
       "codNeg": "BIHF39",
       "nomeCurto": "BKR HEALTHPR",
       "especPapel": "DRE",
       "dataMax": 20231121,
-      "dataMin": 0
+      "dataMin": 20230731
     },
     "BIHI39": {
       "codNeg": "BIHI39",
@@ -3421,7 +3421,7 @@
       "nomeCurto": "BIOMM",
       "especPapel": "DIR ORD MA",
       "dataMax": 20230822,
-      "dataMin": 0
+      "dataMin": 20131202
     },
     "BIOM10": {
       "codNeg": "BIOM10",
@@ -3477,7 +3477,7 @@
       "nomeCurto": "BKR CORPACIF",
       "especPapel": "DRE",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20230713
     },
     "BIPD11": {
       "codNeg": "BIPD11",
@@ -3596,7 +3596,7 @@
       "nomeCurto": "BKR GL FIN",
       "especPapel": "DRE",
       "dataMax": 20231030,
-      "dataMin": 0
+      "dataMin": 20210917
     },
     "BIXJ39": {
       "codNeg": "BIXJ39",
@@ -3659,14 +3659,14 @@
       "nomeCurto": "BKR BASICMAT",
       "especPapel": "DRE",
       "dataMax": 20230915,
-      "dataMin": 0
+      "dataMin": 20230704
     },
     "BIYP39": {
       "codNeg": "BIYP39",
       "nomeCurto": "BKR TRANSPTN",
       "especPapel": "DRE",
       "dataMax": 20231127,
-      "dataMin": 0
+      "dataMin": 20230726
     },
     "BIYT39": {
       "codNeg": "BIYT39",
@@ -3694,7 +3694,7 @@
       "nomeCurto": "JP QLT FACT",
       "especPapel": "DRE",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20220929
     },
     "BJRC11": {
       "codNeg": "BJRC11",
@@ -4625,7 +4625,7 @@
       "nomeCurto": "ALFA CONSORC",
       "especPapel": "PNA",
       "dataMax": 20231113,
-      "dataMin": 0
+      "dataMin": 20100415
     },
     "BRGE6": {
       "codNeg": "BRGE6",
@@ -4653,7 +4653,7 @@
       "nomeCurto": "BRAD FIM HY",
       "especPapel": "CI",
       "dataMax": 20230710,
-      "dataMin": 0
+      "dataMin": 20221124
     },
     "BRIM11": {
       "codNeg": "BRIM11",
@@ -4863,7 +4863,7 @@
       "nomeCurto": "BKR 0 3M TRS",
       "especPapel": "DRE",
       "dataMax": 20231011,
-      "dataMin": 0
+      "dataMin": 20230727
     },
     "BSHV39": {
       "codNeg": "BSHV39",
@@ -5017,7 +5017,7 @@
       "nomeCurto": "BKR FLOT RTE",
       "especPapel": "DRE ED",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20230705
     },
     "BTHI11": {
       "codNeg": "BTHI11",
@@ -5031,7 +5031,7 @@
       "nomeCurto": "BKR TIP",
       "especPapel": "DRE ED",
       "dataMax": 20231130,
-      "dataMin": 0
+      "dataMin": 20230711
     },
     "BTLG11": {
       "codNeg": "BTLG11",
@@ -5094,7 +5094,7 @@
       "nomeCurto": "FII BTSP II",
       "especPapel": "CI ER",
       "dataMax": 20231122,
-      "dataMin": 0
+      "dataMin": 20230726
     },
     "BTTL1": {
       "codNeg": "BTTL1",
@@ -5311,7 +5311,7 @@
       "nomeCurto": "CBRE GROUP I",
       "especPapel": "DRN",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20200323
     },
     "C1BS34": {
       "codNeg": "C1BS34",
@@ -5521,7 +5521,7 @@
       "nomeCurto": "CARRIER GLOB",
       "especPapel": "DRN",
       "dataMax": 20231129,
-      "dataMin": 0
+      "dataMin": 20201106
     },
     "C1SU34": {
       "codNeg": "C1SU34",
@@ -6053,7 +6053,7 @@
       "nomeCurto": "COELBA",
       "especPapel": "PNA",
       "dataMax": 20231127,
-      "dataMin": 0
+      "dataMin": 20100106
     },
     "CEED1": {
       "codNeg": "CEED1",
@@ -6207,7 +6207,7 @@
       "nomeCurto": "FII CF2",
       "especPapel": "CI",
       "dataMax": 20230710,
-      "dataMin": 0
+      "dataMin": 20230710
     },
     "CGAS1": {
       "codNeg": "CGAS1",
@@ -6662,7 +6662,7 @@
       "nomeCurto": "FII COPP",
       "especPapel": "CI",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20230707
     },
     "CORM11": {
       "codNeg": "CORM11",
@@ -6760,7 +6760,7 @@
       "nomeCurto": "FII CPSH",
       "especPapel": "CI ER",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20230705
     },
     "CPTI11": {
       "codNeg": "CPTI11",
@@ -7446,7 +7446,7 @@
       "nomeCurto": "DOVER CORP",
       "especPapel": "DRN",
       "dataMax": 20231114,
-      "dataMin": 0
+      "dataMin": 20200320
     },
     "D1OW34": {
       "codNeg": "D1OW34",
@@ -7537,7 +7537,7 @@
       "nomeCurto": "AMDOCS LTD",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20220216
     },
     "D2PZ34": {
       "codNeg": "D2PZ34",
@@ -8902,21 +8902,21 @@
       "nomeCurto": "EQTL PARA",
       "especPapel": "PNA",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20191218
     },
     "EQPA6": {
       "codNeg": "EQPA6",
       "nomeCurto": "EQTL PARA",
       "especPapel": "PNB",
       "dataMax": 20230927,
-      "dataMin": 0
+      "dataMin": 20200102
     },
     "EQPA7": {
       "codNeg": "EQPA7",
       "nomeCurto": "EQTL PARA",
       "especPapel": "PNC",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20191219
     },
     "EQTL1": {
       "codNeg": "EQTL1",
@@ -9168,7 +9168,7 @@
       "nomeCurto": "EXPEDIA GROU",
       "especPapel": "DRN",
       "dataMax": 20231130,
-      "dataMin": 0
+      "dataMin": 20190522
     },
     "EXXO11B": {
       "codNeg": "EXXO11B",
@@ -9217,7 +9217,7 @@
       "nomeCurto": "F5 INC",
       "especPapel": "DRN",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20200626
     },
     "F1IS34": {
       "codNeg": "F1IS34",
@@ -9294,7 +9294,7 @@
       "nomeCurto": "FORTIVE CORP",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20200206
     },
     "F2IC34": {
       "codNeg": "F2IC34",
@@ -9322,7 +9322,7 @@
       "nomeCurto": "FRESHWORKS",
       "especPapel": "DRN",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20220223
     },
     "F2RT34": {
       "codNeg": "F2RT34",
@@ -9336,7 +9336,7 @@
       "nomeCurto": "FISKER INC",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20220223
     },
     "F2VR34": {
       "codNeg": "F2VR34",
@@ -9861,7 +9861,7 @@
       "nomeCurto": "FRESENIUS",
       "especPapel": "DRN",
       "dataMax": 20231124,
-      "dataMin": 0
+      "dataMin": 20191025
     },
     "FMXB34": {
       "codNeg": "FMXB34",
@@ -10134,7 +10134,7 @@
       "nomeCurto": "CORNING INC",
       "especPapel": "DRN",
       "dataMax": 20231122,
-      "dataMin": 0
+      "dataMin": 20200228
     },
     "G1MI34": {
       "codNeg": "G1MI34",
@@ -10155,7 +10155,7 @@
       "nomeCurto": "GLOBAL PAYME",
       "especPapel": "DRN",
       "dataMax": 20231107,
-      "dataMin": 0
+      "dataMin": 20200313
     },
     "G1RM34": {
       "codNeg": "G1RM34",
@@ -10624,7 +10624,7 @@
       "nomeCurto": "CELGPAR",
       "especPapel": "ON",
       "dataMax": 20231103,
-      "dataMin": 0
+      "dataMin": 20100223
     },
     "GPCP1": {
       "codNeg": "GPCP1",
@@ -10883,7 +10883,7 @@
       "nomeCurto": "HF SINCLAIR",
       "especPapel": "DRN",
       "dataMax": 20230804,
-      "dataMin": 0
+      "dataMin": 20200228
     },
     "H1IG34": {
       "codNeg": "H1IG34",
@@ -10925,7 +10925,7 @@
       "nomeCurto": "HEWLETT PACK",
       "especPapel": "DRN",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20200228
     },
     "H1RB34": {
       "codNeg": "H1RB34",
@@ -11149,7 +11149,7 @@
       "nomeCurto": "FIAGRO HEDGE",
       "especPapel": "CI",
       "dataMax": 20230822,
-      "dataMin": 0
+      "dataMin": 20230704
     },
     "HCRI11": {
       "codNeg": "HCRI11",
@@ -11576,7 +11576,7 @@
       "nomeCurto": "ICICI BANK L",
       "especPapel": "DRN",
       "dataMax": 20230803,
-      "dataMin": 0
+      "dataMin": 20201020
     },
     "I1CE34": {
       "codNeg": "I1CE34",
@@ -11597,7 +11597,7 @@
       "nomeCurto": "IDEX CORP",
       "especPapel": "DRN",
       "dataMax": 20231116,
-      "dataMin": 0
+      "dataMin": 20201124
     },
     "I1FF34": {
       "codNeg": "I1FF34",
@@ -11751,14 +11751,14 @@
       "nomeCurto": "INTRA CELL",
       "especPapel": "DRN",
       "dataMax": 20230731,
-      "dataMin": 0
+      "dataMin": 20230727
     },
     "IAAG11": {
       "codNeg": "IAAG11",
       "nomeCurto": "FIAGRO IAAG",
       "especPapel": "CI",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20230705
     },
     "IAGR11": {
       "codNeg": "IAGR11",
@@ -12402,14 +12402,14 @@
       "nomeCurto": "JEFFERIES FI",
       "especPapel": "DRN",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20200317
     },
     "J1EG34": {
       "codNeg": "J1EG34",
       "nomeCurto": "JACOBS SOLUT",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20210325
     },
     "J1KH34": {
       "codNeg": "J1KH34",
@@ -12563,7 +12563,7 @@
       "nomeCurto": "FII FOF JHSF",
       "especPapel": "CI",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20230726
     },
     "JCPC34": {
       "codNeg": "JCPC34",
@@ -12668,7 +12668,7 @@
       "nomeCurto": "JOSAPAR",
       "especPapel": "PN",
       "dataMax": 20230705,
-      "dataMin": 0
+      "dataMin": 20100111
     },
     "JPMC11B": {
       "codNeg": "JPMC11B",
@@ -13823,7 +13823,7 @@
       "nomeCurto": "FII LESTE PA",
       "especPapel": "CI",
       "dataMax": 20231127,
-      "dataMin": 0
+      "dataMin": 20220602
     },
     "LSXM34": {
       "codNeg": "LSXM34",
@@ -14012,7 +14012,7 @@
       "nomeCurto": "MARKETAXESS",
       "especPapel": "DRN",
       "dataMax": 20231109,
-      "dataMin": 0
+      "dataMin": 20201014
     },
     "M1LC34": {
       "codNeg": "M1LC34",
@@ -14103,7 +14103,7 @@
       "nomeCurto": "METTLER-TOLE",
       "especPapel": "DRN",
       "dataMax": 20231129,
-      "dataMin": 0
+      "dataMin": 20200327
     },
     "M1TT34": {
       "codNeg": "M1TT34",
@@ -14649,7 +14649,7 @@
       "nomeCurto": "MARKELGROUP",
       "especPapel": "DRN",
       "dataMax": 20231121,
-      "dataMin": 0
+      "dataMin": 20190502
     },
     "MLAS3": {
       "codNeg": "MLAS3",
@@ -14698,7 +14698,7 @@
       "nomeCurto": "FII MMVE OP",
       "especPapel": "CI",
       "dataMax": 20230901,
-      "dataMin": 0
+      "dataMin": 20220628
     },
     "MMXM1": {
       "codNeg": "MMXM1",
@@ -16140,7 +16140,7 @@
       "nomeCurto": "PACCAR INC",
       "especPapel": "DRN",
       "dataMax": 20231130,
-      "dataMin": 0
+      "dataMin": 20200303
     },
     "P1AY34": {
       "codNeg": "P1AY34",
@@ -16203,7 +16203,7 @@
       "nomeCurto": "PARKER-HANNI",
       "especPapel": "DRN",
       "dataMax": 20231121,
-      "dataMin": 0
+      "dataMin": 20200303
     },
     "P1HM34": {
       "codNeg": "P1HM34",
@@ -16252,7 +16252,7 @@
       "nomeCurto": "PENTAIR PLC",
       "especPapel": "DRN ED",
       "dataMax": 20231109,
-      "dataMin": 0
+      "dataMin": 20201027
     },
     "P1NW34": {
       "codNeg": "P1NW34",
@@ -16336,7 +16336,7 @@
       "nomeCurto": "PATRIA INVST",
       "especPapel": "DRN",
       "dataMax": 20230808,
-      "dataMin": 0
+      "dataMin": 20230725
     },
     "P2CF34": {
       "codNeg": "P2CF34",
@@ -16427,7 +16427,7 @@
       "nomeCurto": "PURE STORAGE",
       "especPapel": "DRN",
       "dataMax": 20231128,
-      "dataMin": 0
+      "dataMin": 20220303
     },
     "P2TC34": {
       "codNeg": "P2TC34",
@@ -16861,7 +16861,7 @@
       "nomeCurto": "PINE",
       "especPapel": "ON N2",
       "dataMax": 20230921,
-      "dataMin": 0
+      "dataMin": 20230728
     },
     "PINE4": {
       "codNeg": "PINE4",
@@ -16973,7 +16973,7 @@
       "nomeCurto": "CEPAC - PMSP",
       "especPapel": "CPA FLI MB",
       "dataMax": 20230714,
-      "dataMin": 0
+      "dataMin": 20100611
     },
     "PNCR11": {
       "codNeg": "PNCR11",
@@ -17022,7 +17022,7 @@
       "nomeCurto": "FII PNRC",
       "especPapel": "CI ER",
       "dataMax": 20231006,
-      "dataMin": 0
+      "dataMin": 20230707
     },
     "PNVL3": {
       "codNeg": "PNVL3",
@@ -17456,7 +17456,7 @@
       "nomeCurto": "DR REDDYS LA",
       "especPapel": "DRN",
       "dataMax": 20231116,
-      "dataMin": 0
+      "dataMin": 20201020
     },
     "R1EG34": {
       "codNeg": "R1EG34",
@@ -17512,7 +17512,7 @@
       "nomeCurto": "RALPH LAUREN",
       "especPapel": "DRN ED",
       "dataMax": 20230919,
-      "dataMin": 0
+      "dataMin": 20200228
     },
     "R1MD34": {
       "codNeg": "R1MD34",
@@ -17526,21 +17526,21 @@
       "nomeCurto": "ROCKWELL AUT",
       "especPapel": "DRN",
       "dataMax": 20231031,
-      "dataMin": 0
+      "dataMin": 20200320
     },
     "R1OL34": {
       "codNeg": "R1OL34",
       "nomeCurto": "ROLLINS INC",
       "especPapel": "DRN",
       "dataMax": 20231114,
-      "dataMin": 0
+      "dataMin": 20200604
     },
     "R1OP34": {
       "codNeg": "R1OP34",
       "nomeCurto": "ROPER TECHNO",
       "especPapel": "DRN ED",
       "dataMax": 20231130,
-      "dataMin": 0
+      "dataMin": 20200323
     },
     "R1SG34": {
       "codNeg": "R1SG34",
@@ -17617,7 +17617,7 @@
       "nomeCurto": "REGALREXNORD",
       "especPapel": "DRN",
       "dataMax": 20231121,
-      "dataMin": 0
+      "dataMin": 20220329
     },
     "RADL3": {
       "codNeg": "RADL3",
@@ -17813,7 +17813,7 @@
       "nomeCurto": "FIC FI RB ES",
       "especPapel": "DIR",
       "dataMax": 20230810,
-      "dataMin": 0
+      "dataMin": 20230726
     },
     "RBIR11": {
       "codNeg": "RBIR11",
@@ -18877,7 +18877,7 @@
       "nomeCurto": "SSC TECHNOL",
       "especPapel": "DRN",
       "dataMax": 20231120,
-      "dataMin": 0
+      "dataMin": 20201020
     },
     "S1TE34": {
       "codNeg": "S1TE34",
@@ -18968,14 +18968,14 @@
       "nomeCurto": "SPROUTS FARM",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20220711
     },
     "S2GM34": {
       "codNeg": "S2GM34",
       "nomeCurto": "SIGMA LITHM",
       "especPapel": "DRN",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20230724
     },
     "S2HO34": {
       "codNeg": "S2HO34",
@@ -18989,7 +18989,7 @@
       "nomeCurto": "SIX FLAGS",
       "especPapel": "DRN",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20230725
     },
     "S2LA34": {
       "codNeg": "S2LA34",
@@ -19906,7 +19906,7 @@
       "nomeCurto": "FII SPX SYN",
       "especPapel": "DIR",
       "dataMax": 20230731,
-      "dataMin": 0
+      "dataMin": 20230721
     },
     "SPYI11": {
       "codNeg": "SPYI11",
@@ -20249,7 +20249,7 @@
       "nomeCurto": "TEXTRON INC",
       "especPapel": "DRN",
       "dataMax": 20230801,
-      "dataMin": 0
+      "dataMin": 20200303
     },
     "T2DH34": {
       "codNeg": "T2DH34",
@@ -20438,7 +20438,7 @@
       "nomeCurto": "FII TOUR V",
       "especPapel": "CI",
       "dataMax": 20230807,
-      "dataMin": 0
+      "dataMin": 20210420
     },
     "TCNO1": {
       "codNeg": "TCNO1",
@@ -21138,7 +21138,7 @@
       "nomeCurto": "FII SDI LOG",
       "especPapel": "CI",
       "dataMax": 20231201,
-      "dataMin": 0
+      "dataMin": 20230704
     },
     "TRFO4": {
       "codNeg": "TRFO4",
@@ -21432,7 +21432,7 @@
       "nomeCurto": "UDR INC",
       "especPapel": "DRN ED",
       "dataMax": 20231101,
-      "dataMin": 0
+      "dataMin": 20200323
     },
     "U1HS34": {
       "codNeg": "U1HS34",
@@ -21502,7 +21502,7 @@
       "nomeCurto": "UNITEDTHERAP",
       "especPapel": "DRN",
       "dataMax": 20230727,
-      "dataMin": 0
+      "dataMin": 20230727
     },
     "UBSG34": {
       "codNeg": "UBSG34",
@@ -21803,7 +21803,7 @@
       "nomeCurto": "VENTAS INC",
       "especPapel": "DRN",
       "dataMax": 20231113,
-      "dataMin": 0
+      "dataMin": 20200320
     },
     "V2EE34": {
       "codNeg": "V2EE34",
@@ -22237,7 +22237,7 @@
       "nomeCurto": "VIVER",
       "especPapel": "DIR ORD NM",
       "dataMax": 20230823,
-      "dataMin": 0
+      "dataMin": 20121005
     },
     "VIVR11": {
       "codNeg": "VIVR11",
@@ -22384,7 +22384,7 @@
       "nomeCurto": "FII VOT SEC",
       "especPapel": "CI",
       "dataMax": 20230719,
-      "dataMin": 0
+      "dataMin": 20200702
     },
     "VSHO11": {
       "codNeg": "VSHO11",
@@ -22566,7 +22566,7 @@
       "nomeCurto": "WEC ENERGY G",
       "especPapel": "DRN",
       "dataMax": 20231122,
-      "dataMin": 0
+      "dataMin": 20200323
     },
     "W1EL34": {
       "codNeg": "W1EL34",
@@ -22657,7 +22657,7 @@
       "nomeCurto": "WYNN RESORTS",
       "especPapel": "DRN",
       "dataMax": 20231113,
-      "dataMin": 0
+      "dataMin": 20200228
     },
     "W2EX34": {
       "codNeg": "W2EX34",
@@ -22951,7 +22951,7 @@
       "nomeCurto": "XP INC",
       "especPapel": "DR1",
       "dataMax": 20230811,
-      "dataMin": 0
+      "dataMin": 20230703
     },
     "XPBR31": {
       "codNeg": "XPBR31",
@@ -23091,7 +23091,7 @@
       "nomeCurto": "FII XP MALLS",
       "especPapel": "DIR",
       "dataMax": 20230718,
-      "dataMin": 0
+      "dataMin": 20180622
     },
     "XPML13": {
       "codNeg": "XPML13",
@@ -23280,14 +23280,14 @@
       "nomeCurto": "ZILLOW GROUP",
       "especPapel": "DRN",
       "dataMax": 20231120,
-      "dataMin": 0
+      "dataMin": 20210816
     },
     "Z2LL35": {
       "codNeg": "Z2LL35",
       "nomeCurto": "ZILLOW GROUP",
       "especPapel": "DRN",
       "dataMax": 20231002,
-      "dataMin": 0
+      "dataMin": 20230703
     },
     "Z2NG34": {
       "codNeg": "Z2NG34",

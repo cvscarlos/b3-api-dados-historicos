@@ -90,7 +90,7 @@ function getTickerFileData(
     especPapel: txtFileLine.especificacaoPapel,
     dataMax: Math.max(currentTickerData?.dataMax || 0, txtFileLine.data),
     dataMin: Math.min(
-      currentTickerData?.dataMin || Number.POSITIVE_INFINITY,
+      currentTickerData?.dataMin || 99_999_999,
       txtFileLine.data,
     ),
   };

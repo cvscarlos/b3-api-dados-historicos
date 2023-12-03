@@ -26,7 +26,7 @@ export function writeToFile<
 
     const item = data[key];
     item.dataMax = Math.max(item?.dataMax || 0, newItem.dataMax);
-    item.dataMin = Math.min(item?.dataMin || 0, newItem.dataMin);
+    item.dataMin = Math.min(item?.dataMin || 99_999_999, newItem.dataMin);
   });
 
   const sorted = Object.entries(data).sort();
