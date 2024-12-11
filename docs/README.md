@@ -9,14 +9,14 @@
 
 Essa API fornece dos dados disponibilizados pela B3 para download em formato de API!
 
-Os dados não tratados podem ser baixados diretamento no site da B3 em: https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/
+Os dados não tratados podem ser baixados diretamento no site da B3 em: [https://www.b3.com.br/.../series-historicas](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
 
 Essa API possui dados de 2010 até dias atuais.
 
 ## Endpoints
 
 ### Lista de ativos do mercado à vista
-**GET:** https://cvscarlos.github.io/b3-api-dados-historicos/api/v1/tickers-cash-market.json
+**GET:** [https://cvscarlos.github.io/b3-api-dados-historicos/api/v1/tickers-cash-market.json](https://cvscarlos.github.io/b3-api-dados-historicos/api/v1/tickers-cash-market.json)
 
 Exemplo de resposta:
 ```jsonc
