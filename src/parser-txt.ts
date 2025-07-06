@@ -1,4 +1,5 @@
-import { readFileSync, renameSync } from 'node:fs';
+import { createReadStream, renameSync } from 'node:fs';
+import { createInterface } from 'node:readline';
 import path from 'node:path';
 import { PARSED_RAW_FILES_DIR } from './config';
 import { logInfo } from './logger';
@@ -26,20 +27,23 @@ type ParsedTxtLine = {
   precoMinimo: number;
 };
 
-function parseFile() {
+async function parseFile(): Promise<boolean> {
   const { filePath, filename } = getFirstAvailabeFile('.TXT');
   if (!filePath) {
     logInfo('No more txt files to parse');
     return false;
   }
-  const txtFile = readFileSync(filePath, 'utf8');
 
   const tickersCashApi: TickersCashApi = {};
 
-  const txtLines = txtFile.split('\n');
-  for (let i = 0, l = txtLines.length; i < l; i++) {
-    const line = txtLines[i];
+  const fileStream = createReadStream(filePath, { encoding: 'utf8' });
+  const rl = createInterface({
+    input: fileStream,
+    crlfDelay: Number.POSITIVE_INFINITY,
+  });
 
+  // eslint-disable-next-line no-restricted-syntax
+  for await (const line of rl) {
     const recordType = line.slice(0, 2);
     if (recordType !== '01') continue; // only quote records
 
@@ -96,6 +100,14 @@ function getTickerFileData(
   };
 }
 
-while (parseFile()) {
-  logInfo('Parsing next file...');
+async function main() {
+  // eslint-disable-next-line no-await-in-loop
+  while (await parseFile()) {
+    logInfo('Parsing next file...');
+  }
 }
+
+main().catch((error) => {
+  console.error('Error during parsing:', error);
+  process.exit(1);
+});

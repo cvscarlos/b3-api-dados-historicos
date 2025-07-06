@@ -5,6 +5,7 @@
   "scripts": {
     "download": "ts-node -T ./src/download-cash-market.ts",
     "parse": "ts-node -T ./src/parser-txt.ts",
+    "unzip": "ts-node -T ./src/unzip.ts",
     "download-xml": "ts-node -T ./src/download-xml-market-data.ts",
     "parse-xml": "ts-node -T ./src/parser-xml.ts"
   },

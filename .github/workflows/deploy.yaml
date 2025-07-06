@@ -1,12 +1,12 @@
 name: Deploy API
 
 on:
-  schedule:
-    - cron: '0 0,12 * * *' # every 12 hours
+  # schedule:
+    # - cron: '0 0,12 * * *' # every 12 hours
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+    # branches:
+      # - main
 
 jobs:
   deploy-api:
