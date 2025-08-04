@@ -34,4 +34,10 @@ Exemplo de resposta:
 }
 ```
 
-*2025-07-06T00:00:00.000Z*
+## Atualizando os dados da API
+
+A B3 adicionou um captcha no download dos dados, então para atualizar os dados da API você precisa:
+1. Acessar a página de [séries históricas da B3](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/);
+2. Baixe o arquivo com a série de dados deseja, "Séries Anuais" por exemplo (as vezes é necessário uso de VPN);
+3. Coloque o arquivo na pasta `docs/b3-raw-files`;
+4. Execute `npm run unzip` e `npm run parse`.
