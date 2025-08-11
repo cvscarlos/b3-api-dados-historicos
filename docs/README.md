@@ -38,6 +38,6 @@ Exemplo de resposta:
 
 A B3 adicionou um captcha no download dos dados, então para atualizar os dados da API você precisa:
 1. Acessar a página de [séries históricas da B3](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/);
-2. Baixe o arquivo com a série de dados deseja, "Séries Anuais" por exemplo (as vezes é necessário uso de VPN);
+2. Baixe o arquivo com a série de dados deseja, "[Séries Anuais](https://bvmf.bmfbovespa.com.br/pt-br/cotacoes-historicas/FormConsultaValida.asp?arq=COTAHIST_A2025.ZIP)" por exemplo (as vezes é necessário uso de VPN);
 3. Coloque o arquivo na pasta `docs/b3-raw-files`;
-4. Execute `npm run unzip` e `npm run parse`.
+4. Execute `npm run unzip && npm run parse`.
