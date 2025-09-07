@@ -1,12 +1,12 @@
 name: Deploy API
 
 on:
-  # schedule:
-  #   - cron: '0 0 * * *' # every day at midnight
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 jobs:
   deploy-api:
@@ -24,12 +24,12 @@ jobs:
       - name: Download dos arquivos crús
         run: |
           npm run download
-          npm run download-xml
+          # npm run download-xml
 
       - name: Converte os arquivos crús para JSON
         run: |
           npm run parse
-          npm run parse-xml
+          # npm run parse-xml
 
       - name: Commit & Push das alterações
         uses: actions-js/push@v1

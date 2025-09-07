@@ -11,7 +11,7 @@ async function downloadFile(
   destinationFilePath: string,
   taskId: string,
 ) {
-  logInfo(`[${taskId}] Downloading zip file...`);
+  logInfo(`[${taskId}] Downloading zip file...`, url);
   const response = await axios({ method: 'get', url, responseType: 'stream' });
 
   logInfo(`[${taskId}] Starting write stream...`);
@@ -57,26 +57,27 @@ function isStream(data: unknown): data is NodeJS.ReadableStream {
   );
 }
 
-function dontStopIfError(error: Error, date: string) {
+function doNotStopIfError(error: Error, date: string) {
   logError(`[${date}] ${String(error)}`);
 }
 
 export function downloader(tasks: {
   [taskId: string]: { url: string; destinationFilePath: string };
 }) {
-  Promise.all(
-    Object.entries(tasks).map(([taskId, { url, destinationFilePath }]) =>
-      downloadFile(url, destinationFilePath, taskId).catch((e) =>
-        dontStopIfError(e, taskId),
-      ),
-    ),
-  )
-    .then(() => {
-      logInfo('All files downloaded successfully');
+  // eslint-disable-next-line @typescript-eslint/no-floating-promises
+  (async () => {
+    try {
+      // eslint-disable-next-line no-restricted-syntax
+      for await (const task of Object.entries(tasks)) {
+        const [taskId, { url, destinationFilePath }] = task;
+        await downloadFile(url, destinationFilePath, taskId).catch((e) =>
+          doNotStopIfError(e, taskId),
+        );
+      }
+    } catch (error) {
+      logError(error);
+    } finally {
       process.exit(0);
-    })
-    .catch((e) => {
-      logError(e);
-      process.exit(1);
-    });
+    }
+  })();
 }

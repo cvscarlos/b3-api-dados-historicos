@@ -41,3 +41,5 @@ A B3 adicionou um captcha no download dos dados, então para atualizar os dados 
 2. Baixe o arquivo com a série de dados deseja, "[Séries Anuais](https://bvmf.bmfbovespa.com.br/pt-br/cotacoes-historicas/FormConsultaValida.asp?arq=COTAHIST_A2025.ZIP)" por exemplo (as vezes é necessário uso de VPN);
 3. Coloque o arquivo na pasta `docs/b3-raw-files`;
 4. Execute `npm run unzip && npm run parse`.
+
+Outra opção é tentar baixar o arquivo zip diretamente: https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2025.ZIP
