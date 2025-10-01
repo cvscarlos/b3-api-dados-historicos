@@ -7,26 +7,28 @@
     "parse": "ts-node -T ./src/parser-txt.ts",
     "unzip": "ts-node -T ./src/unzip.ts",
     "download-xml": "ts-node -T ./src/download-xml-market-data.ts",
-    "parse-xml": "ts-node -T ./src/parser-xml.ts"
+    "parse-xml": "ts-node -T ./src/parser-xml.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.2",
+    "axios": "^1.12.2",
     "decompress": "^4.2.1",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.36.0",
     "@types/decompress": "^4.2.7",
-    "@types/node": "^20.9.3",
+    "@types/node": "^20.19.19",
     "@types/xml2js": "^0.4.14",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "eslint": "^8.54.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-unicorn": "^49.0.0",
-    "prettier": "^3.1.0",
-    "typescript": "^5.3.2"
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.45.0"
   }
 }

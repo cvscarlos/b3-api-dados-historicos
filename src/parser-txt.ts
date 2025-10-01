@@ -42,7 +42,6 @@ async function parseFile(): Promise<boolean> {
     crlfDelay: Number.POSITIVE_INFINITY,
   });
 
-  // eslint-disable-next-line no-restricted-syntax
   for await (const line of rl) {
     const recordType = line.slice(0, 2);
     if (recordType !== '01') continue; // only quote records
@@ -87,7 +86,6 @@ function getTickerFileData(
 ): void {
   const currentTickerData = tickersObject[txtFileLine.codNegociacao];
 
-  // eslint-disable-next-line no-param-reassign
   tickersObject[txtFileLine.codNegociacao] = {
     codNeg: txtFileLine.codNegociacao,
     nomeCurto: txtFileLine.nomeResumido,
@@ -101,7 +99,6 @@ function getTickerFileData(
 }
 
 async function main() {
-  // eslint-disable-next-line no-await-in-loop
   while (await parseFile()) {
     logInfo('Parsing next file...');
   }

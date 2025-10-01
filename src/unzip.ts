@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import fs from 'node:fs';
 import decompress from 'decompress';
 import { RAW_FILES_DIR } from './config';

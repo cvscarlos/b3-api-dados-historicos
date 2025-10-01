@@ -21,7 +21,7 @@ async function downloadFile(
   const writer = fs.createWriteStream(destinationFilePath);
   response.data.pipe(writer);
 
-  await new Promise((resolve, reject) => {
+  await new Promise<void>((resolve, reject) => {
     writer.on('finish', resolve);
     writer.on('error', reject);
   });
@@ -67,7 +67,6 @@ export function downloader(tasks: {
   // eslint-disable-next-line @typescript-eslint/no-floating-promises
   (async () => {
     try {
-      // eslint-disable-next-line no-restricted-syntax
       for await (const task of Object.entries(tasks)) {
         const [taskId, { url, destinationFilePath }] = task;
         await downloadFile(url, destinationFilePath, taskId).catch((e) =>

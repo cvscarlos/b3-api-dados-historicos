@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import path from 'node:path';
 import axios from 'axios';
 import { RAW_FILES_DIR } from './config';
@@ -23,7 +25,7 @@ async function main() {
     String.raw`name='${fieldId}\.date']"\)\.val\('(\d+\/\d+\/\d+)'`,
   );
 
-  console.log(dateRegex, data.match(dateRegex)[1]);
+  // console.log(dateRegex, data.match(dateRegex)[1]);
 }
 
 main()

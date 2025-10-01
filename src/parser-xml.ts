@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-
 import { readFileSync, renameSync } from 'node:fs';
 import { parseStringPromise } from 'xml2js';
 import path from 'node:path';
