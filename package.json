@@ -13,22 +13,22 @@
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.12.2",
+    "axios": "^1.16.0",
     "decompress": "^4.2.1",
     "ts-node": "^10.9.2",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.36.0",
+    "@eslint/js": "^10.0.1",
     "@types/decompress": "^4.2.7",
-    "@types/node": "^20.19.19",
+    "@types/node": "^24.12.2",
     "@types/xml2js": "^0.4.14",
-    "eslint": "^9.36.0",
+    "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-unicorn": "^61.0.2",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.45.0"
+    "typescript-eslint": "^8.59.2"
   }
 }

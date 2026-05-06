@@ -2,7 +2,7 @@ name: Deploy API
 
 on:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight
+    - cron: '18 1 * * *' # every day at 01:18 AM
   workflow_dispatch:
   push:
     branches:
@@ -12,11 +12,11 @@ jobs:
   deploy-api:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Instala as dependências
         run: npm install
@@ -32,7 +32,7 @@ jobs:
           # npm run parse-xml
 
       - name: Commit & Push das alterações
-        uses: actions-js/push@v1
+        uses: actions-js/push@v1.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
