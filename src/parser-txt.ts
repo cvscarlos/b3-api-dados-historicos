@@ -68,10 +68,18 @@ function parseTxtLine(line: string): ParsedTxtLine {
   return {
     data: Number(line.slice(2, 10)),
     codBDI: Number(line.slice(10, 12)),
-    codNegociacao: line.slice(12, 24).trim(),
+    codNegociacao: line.slice(12, 24).replaceAll('"', '').trim(),
     tipoMercado: Number(line.slice(24, 27)),
-    nomeResumido: line.slice(27, 39).replaceAll(spacesRegex, ' ').trim(),
-    especificacaoPapel: line.slice(39, 49).replaceAll(spacesRegex, ' ').trim(),
+    nomeResumido: line
+      .slice(27, 39)
+      .replaceAll('"', '')
+      .replaceAll(spacesRegex, ' ')
+      .trim(),
+    especificacaoPapel: line
+      .slice(39, 49)
+      .replaceAll('"', '')
+      .replaceAll(spacesRegex, ' ')
+      .trim(),
     prazoMercadoTermo: line.slice(49, 52).trim(),
     moeda: line.slice(52, 56).trim(),
     precoAbertura: Number(line.slice(56, 69)),
