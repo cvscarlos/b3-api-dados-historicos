@@ -1,8 +1,10 @@
-# b3-api-dados-historicos
+# AGENTS.md
 
-Gera a [B3 Historical Quote Data API](https://cvscarlos.github.io/b3-api-dados-historicos/) — arquivos JSON estáticos com a lista de ativos da B3, publicados via GitHub Pages a partir da pasta `docs/`.
+Instruções para agentes de IA e para quem mantém este repositório.
 
-**Este arquivo é para quem mantém o projeto.** A documentação da API, para quem quer consumi-la, está em [`docs/README.md`](docs/README.md) (a landing page publicada).
+Ele gera a [B3 Historical Quote Data API](https://cvscarlos.github.io/b3-api-dados-historicos/) — arquivos JSON estáticos com a lista de ativos da B3, publicados via GitHub Pages a partir da pasta `docs/`.
+
+**O único README do repositório é o `docs/README.md`, e ele é a página HTML publicada** em https://cvscarlos.github.io/b3-api-dados-historicos/ — é a vitrine da API, escrita para quem vai consumi-la. Não coloque detalhe técnico, instrução de manutenção nem nota de implementação lá; esse conteúdo vive aqui. Não crie um `README.md` na raiz.
 
 ## Como funciona
 
