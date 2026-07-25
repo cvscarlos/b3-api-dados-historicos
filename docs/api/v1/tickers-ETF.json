@@ -1,5 +1,29 @@
 {
   "data": {
+    "3PRE11-GLPG PRE3A F11": {
+      "codNeg": "3PRE11",
+      "nome": "GLPG PRE3A F11",
+      "dataMax": 99991231,
+      "dataMin": 20260609
+    },
+    "5PRE11-IT NOW PRÉ 5F11": {
+      "codNeg": "5PRE11",
+      "nome": "IT NOW PRÉ 5F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "AREA11-BTGP AREA F11 ER": {
+      "codNeg": "AREA11",
+      "nome": "BTGP AREA F11 ER",
+      "dataMax": 99991231,
+      "dataMin": 20260720
+    },
+    "AUPO11-BTGP AUPO F11": {
+      "codNeg": "AUPO11",
+      "nome": "BTGP AUPO F11",
+      "dataMax": 99991231,
+      "dataMin": 20251215
+    },
     "B5MB11-BRAD IMA-B5MF11": {
       "codNeg": "B5MB11",
       "nome": "BRAD IMA-B5MF11",
@@ -17,6 +41,30 @@
       "nome": "BB ETF DAP5 F11",
       "dataMax": 99991231,
       "dataMin": 20230926
+    },
+    "BLFT11-B INDEX BLFTF11": {
+      "codNeg": "BLFT11",
+      "nome": "B INDEX BLFTF11",
+      "dataMax": 99991231,
+      "dataMin": 20251017
+    },
+    "BOL511-B INDEX BOL F11": {
+      "codNeg": "BOL511",
+      "nome": "B INDEX BOL F11",
+      "dataMax": 99991231,
+      "dataMin": 20251017
+    },
+    "BPRE11-B INDEX BPREF11": {
+      "codNeg": "BPRE11",
+      "nome": "B INDEX BPREF11",
+      "dataMax": 99991231,
+      "dataMin": 20251017
+    },
+    "CDIB11-IT NOW DIPCAF11": {
+      "codNeg": "CDIB11",
+      "nome": "IT NOW DIPCAF11",
+      "dataMax": 99991231,
+      "dataMin": 20260603
     },
     "DEBB11-BTG DEB DI F11": {
       "codNeg": "DEBB11",
@@ -36,11 +84,47 @@
       "dataMax": 99991231,
       "dataMin": 20200629
     },
+    "GICP11-GENIAL DEBDIF11": {
+      "codNeg": "GICP11",
+      "nome": "GENIAL DEBDIF11",
+      "dataMax": 99991231,
+      "dataMin": 20251008
+    },
+    "GLFT11-GLPG TEVALFTF11": {
+      "codNeg": "GLFT11",
+      "nome": "GLPG TEVALFTF11",
+      "dataMax": 99991231,
+      "dataMin": 20251008
+    },
+    "GPCA11-GRAO IPCA 2YF11": {
+      "codNeg": "GPCA11",
+      "nome": "GRAO IPCA 2YF11",
+      "dataMax": 99991231,
+      "dataMin": 20260518
+    },
+    "HGBR11-NUIBOXXBRLIGF11": {
+      "codNeg": "HGBR11",
+      "nome": "NUIBOXXBRLIGF11",
+      "dataMax": 99991231,
+      "dataMin": 20250917
+    },
+    "HYBR11-NUIBOXXBRLHYF11": {
+      "codNeg": "HYBR11",
+      "nome": "NUIBOXXBRLHYF11",
+      "dataMax": 99991231,
+      "dataMin": 20250917
+    },
     "IB5M11-IT NOW IB5M F11": {
       "codNeg": "IB5M11",
       "nome": "IT NOW IB5M F11",
       "dataMax": 99991231,
       "dataMin": 20200629
+    },
+    "IDKA11-IT NOW PRE 3F11": {
+      "codNeg": "IDKA11",
+      "nome": "IT NOW PRE 3F11",
+      "dataMax": 99991231,
+      "dataMin": 20241029
     },
     "IMAB11-IT NOW IMA-BF11": {
       "codNeg": "IMAB11",
@@ -60,17 +144,233 @@
       "dataMax": 99991231,
       "dataMin": 20200629
     },
+    "LFIN11-BTGP LFIN F11": {
+      "codNeg": "LFIN11",
+      "nome": "BTGP LFIN F11",
+      "dataMax": 99991231,
+      "dataMin": 20250922
+    },
+    "LFIX11-INVESTO LFIXF11": {
+      "codNeg": "LFIX11",
+      "nome": "INVESTO LFIXF11",
+      "dataMax": 99991231,
+      "dataMin": 20260210
+    },
+    "LFTB11-INVESTO LFTBF11": {
+      "codNeg": "LFTB11",
+      "nome": "INVESTO LFTBF11",
+      "dataMax": 99991231,
+      "dataMin": 20241105
+    },
+    "LFTI11-IT NOW SELICF11": {
+      "codNeg": "LFTI11",
+      "nome": "IT NOW SELICF11",
+      "dataMax": 99991231,
+      "dataMin": 20251219
+    },
     "LFTS11-INVESTO LFTSF11": {
       "codNeg": "LFTS11",
       "nome": "INVESTO LFTSF11",
       "dataMax": 99991231,
       "dataMin": 20221108
     },
+    "LFTX11-TREND SELIC F11": {
+      "codNeg": "LFTX11",
+      "nome": "TREND SELIC F11",
+      "dataMax": 99991231,
+      "dataMin": 20260327
+    },
+    "LIQB11-BTGP LIQB F11": {
+      "codNeg": "LIQB11",
+      "nome": "BTGP LIQB F11",
+      "dataMax": 99991231,
+      "dataMin": 20260714
+    },
+    "LLFT11-BTG TEVALFT F11": {
+      "codNeg": "LLFT11",
+      "nome": "BTG TEVALFT F11",
+      "dataMax": 99991231,
+      "dataMin": 20250612
+    },
+    "LTBX11-TREND CASH BF11": {
+      "codNeg": "LTBX11",
+      "nome": "TREND CASH BF11",
+      "dataMax": 99991231,
+      "dataMin": 20260327
+    },
+    "LTNB11-BTGP IRFM F11": {
+      "codNeg": "LTNB11",
+      "nome": "BTGP IRFM F11",
+      "dataMax": 99991231,
+      "dataMin": 20250715
+    },
+    "MARG11-BTG MARGDEB F11": {
+      "codNeg": "MARG11",
+      "nome": "BTG MARGDEB F11",
+      "dataMax": 99991231,
+      "dataMin": 20250324
+    },
+    "MIDB11-BTGP B2035 F11": {
+      "codNeg": "MIDB11",
+      "nome": "BTGP B2035 F11",
+      "dataMax": 99991231,
+      "dataMin": 20260213
+    },
+    "NB0211-NUIPCA02ANOSF11": {
+      "codNeg": "NB0211",
+      "nome": "NUIPCA02ANOSF11",
+      "dataMax": 99991231,
+      "dataMin": 20260716
+    },
+    "NB0511-NUIPCA05ANOSF11": {
+      "codNeg": "NB0511",
+      "nome": "NUIPCA05ANOSF11",
+      "dataMax": 99991231,
+      "dataMin": 20260716
+    },
+    "NB1011-NUIPCA10ANOSF11": {
+      "codNeg": "NB1011",
+      "nome": "NUIPCA10ANOSF11",
+      "dataMax": 99991231,
+      "dataMin": 20260716
+    },
+    "NCDI11-NUCDISELICB3F11": {
+      "codNeg": "NCDI11",
+      "nome": "NUCDISELICB3F11",
+      "dataMax": 99991231,
+      "dataMin": 20251016
+    },
+    "NLFA11-NULFSRANBIMAF11": {
+      "codNeg": "NLFA11",
+      "nome": "NULFSRANBIMAF11",
+      "dataMax": 99991231,
+      "dataMin": 20251216
+    },
+    "NTNF11-INVESTOV8PREF11": {
+      "codNeg": "NTNF11",
+      "nome": "INVESTOV8PREF11",
+      "dataMax": 99991231,
+      "dataMin": 20260720
+    },
     "NTNS11-INVESTO NTNSF11": {
       "codNeg": "NTNS11",
       "nome": "INVESTO NTNSF11",
       "dataMax": 99991231,
       "dataMin": 20230619
+    },
+    "PACB11-BTG INF LONGF11": {
+      "codNeg": "PACB11",
+      "nome": "BTG INF LONGF11",
+      "dataMax": 99991231,
+      "dataMin": 20240710
+    },
+    "PACC11-BTGINF CURTOF11": {
+      "codNeg": "PACC11",
+      "nome": "BTGINF CURTOF11",
+      "dataMax": 99991231,
+      "dataMin": 20250130
+    },
+    "PACG11-BTGINF GERALF11": {
+      "codNeg": "PACG11",
+      "nome": "BTGINF GERALF11",
+      "dataMax": 99991231,
+      "dataMin": 20250130
+    },
+    "PACL11-BTGP IMAB5 F11": {
+      "codNeg": "PACL11",
+      "nome": "BTGP IMAB5 F11",
+      "dataMax": 99991231,
+      "dataMin": 20250718
+    },
+    "PFJR11-BTGP PFJR F11": {
+      "codNeg": "PFJR11",
+      "nome": "BTGP PFJR F11",
+      "dataMax": 99991231,
+      "dataMin": 20260615
+    },
+    "PHIP11-ITBRCURTOPHRF11": {
+      "codNeg": "PHIP11",
+      "nome": "ITBRCURTOPHRF11",
+      "dataMax": 99991231,
+      "dataMin": 20241216
+    },
+    "POSB11-GLGP SELIC BF11": {
+      "codNeg": "POSB11",
+      "nome": "GLGP SELIC BF11",
+      "dataMax": 99991231,
+      "dataMin": 20260318
+    },
+    "PREX11-TREND IRFM F11": {
+      "codNeg": "PREX11",
+      "nome": "TREND IRFM F11",
+      "dataMax": 99991231,
+      "dataMin": 20260430
+    },
+    "SFIX11-BTGP SFIX F11": {
+      "codNeg": "SFIX11",
+      "nome": "BTGP SFIX F11",
+      "dataMax": 99991231,
+      "dataMin": 20250903
+    },
+    "T10R11-IT NOW TSY10F11": {
+      "codNeg": "T10R11",
+      "nome": "IT NOW TSY10F11",
+      "dataMax": 99991231,
+      "dataMin": 20250826
+    },
+    "TD3511-IT NOW TD35 F11": {
+      "codNeg": "TD3511",
+      "nome": "IT NOW TD35 F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "TD5011-IT NOW TD50 F11": {
+      "codNeg": "TD5011",
+      "nome": "IT NOW TD50 F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "TD6011-IT NOW TD60 F11": {
+      "codNeg": "TD6011",
+      "nome": "IT NOW TD60 F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "WEJR11-BTGP WEJR F11": {
+      "codNeg": "WEJR11",
+      "nome": "BTGP WEJR F11",
+      "dataMax": 99991231,
+      "dataMin": 20251017
+    },
+    "XB3011-TREND NTNB30F11": {
+      "codNeg": "XB3011",
+      "nome": "TREND NTNB30F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "XB3511-TREND NTNB35F11": {
+      "codNeg": "XB3511",
+      "nome": "TREND NTNB35F11",
+      "dataMax": 99991231,
+      "dataMin": 20251208
+    },
+    "XB4511-TREND NTNB45F11": {
+      "codNeg": "XB4511",
+      "nome": "TREND NTNB45F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
+    },
+    "XB5011-TREND NTNB50F11": {
+      "codNeg": "XB5011",
+      "nome": "TREND NTNB50F11",
+      "dataMax": 99991231,
+      "dataMin": 20251208
+    },
+    "XB6011-TREND NTNB60F11": {
+      "codNeg": "XB6011",
+      "nome": "TREND NTNB60F11",
+      "dataMax": 99991231,
+      "dataMin": 20260223
     }
   }
 }
