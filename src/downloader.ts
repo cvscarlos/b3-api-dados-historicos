@@ -10,7 +10,7 @@ async function downloadFile(
   url: string,
   destinationFilePath: string,
   taskId: string,
-) {
+): Promise<boolean> {
   logInfo(`[${taskId}] Downloading zip file...`, url);
   const response = await axios({ method: 'get', url, responseType: 'stream' });
 
@@ -28,8 +28,15 @@ async function downloadFile(
 
   logInfo(`[${taskId}] Zip file downloaded successfully`);
 
-  await decompress(destinationFilePath, RAW_FILES_DIR);
+  // Data sem pregão não é erro na B3: ela responde 200 com um zip válido e
+  // vazio. Um zip sem entradas é a única forma de distinguir "não há arquivo
+  // para essa data" de um download bem-sucedido.
+  const extractedFiles = await decompress(destinationFilePath, RAW_FILES_DIR);
   fs.unlinkSync(destinationFilePath);
+  if (extractedFiles.length === 0) {
+    logInfo(`[${taskId}] Empty zip file, there is no data for this date`);
+    return false;
+  }
 
   const secondaryFilePath = destinationFilePath.replace(zipExtensionRegex, '');
   if (fs.existsSync(secondaryFilePath)) {
@@ -49,6 +56,7 @@ async function downloadFile(
   }
 
   logInfo(`[${taskId}] Zip file extracted successfully`);
+  return true;
 }
 
 function isStream(data: unknown): data is NodeJS.ReadableStream {
@@ -61,17 +69,30 @@ function doNotStopIfError(error: Error, date: string) {
   logError(`[${date}] ${String(error)}`);
 }
 
-export function downloader(tasks: {
-  [taskId: string]: { url: string; destinationFilePath: string };
-}) {
+export function downloader(
+  tasks: {
+    [taskId: string]: { url: string; destinationFilePath: string };
+  },
+  // Use quando as tarefas são tentativas do MESMO arquivo em datas diferentes:
+  // baixar todas seria desperdício de rede e de disco (o boletim de
+  // instrumentos passa de 1 GB descompactado por dia).
+  { stopOnFirstSuccess = false }: { stopOnFirstSuccess?: boolean } = {},
+) {
   // eslint-disable-next-line @typescript-eslint/no-floating-promises
   (async () => {
     try {
       for await (const task of Object.entries(tasks)) {
         const [taskId, { url, destinationFilePath }] = task;
-        await downloadFile(url, destinationFilePath, taskId).catch((e) =>
-          doNotStopIfError(e, taskId),
-        );
+        const downloaded = await downloadFile(
+          url,
+          destinationFilePath,
+          taskId,
+        ).catch((e) => {
+          doNotStopIfError(e, taskId);
+          return false;
+        });
+
+        if (downloaded && stopOnFirstSuccess) break;
       }
     } catch (error) {
       logError(error);
