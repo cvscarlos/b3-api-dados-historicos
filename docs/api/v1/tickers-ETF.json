@@ -1,5 +1,17 @@
 {
   "data": {
+    "03BK11-GLPG JR03A F11": {
+      "codNeg": "03BK11",
+      "nome": "GLPG JR03A F11",
+      "dataMax": 99991231,
+      "dataMin": 20260730
+    },
+    "10BK11-GLPG JR10A F11": {
+      "codNeg": "10BK11",
+      "nome": "GLPG JR10A F11",
+      "dataMax": 99991231,
+      "dataMin": 20260730
+    },
     "3PRE11-GLPG PRE3A F11": {
       "codNeg": "3PRE11",
       "nome": "GLPG PRE3A F11",
@@ -15,6 +27,12 @@
     "AREA11-BTGP AREA F11 ER": {
       "codNeg": "AREA11",
       "nome": "BTGP AREA F11 ER",
+      "dataMax": 99991231,
+      "dataMin": 20260720
+    },
+    "AREA11-BTGP AREA F11": {
+      "codNeg": "AREA11",
+      "nome": "BTGP AREA F11",
       "dataMax": 99991231,
       "dataMin": 20260720
     },
