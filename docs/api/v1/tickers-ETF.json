@@ -24,6 +24,12 @@
       "dataMax": 99991231,
       "dataMin": 20260223
     },
+    "AMAB11-BTGP AMAB F11": {
+      "codNeg": "AMAB11",
+      "nome": "BTGP AMAB F11",
+      "dataMax": 99991231,
+      "dataMin": 20260811
+    },
     "AREA11-BTGP AREA F11 ER": {
       "codNeg": "AREA11",
       "nome": "BTGP AREA F11 ER",
