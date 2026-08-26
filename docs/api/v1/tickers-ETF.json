@@ -330,6 +330,12 @@
       "dataMax": 99991231,
       "dataMin": 20260430
     },
+    "SELI11-BB ETF SELICF11": {
+      "codNeg": "SELI11",
+      "nome": "BB ETF SELICF11",
+      "dataMax": 99991231,
+      "dataMin": 20260825
+    },
     "SFIX11-BTGP SFIX F11": {
       "codNeg": "SFIX11",
       "nome": "BTGP SFIX F11",
