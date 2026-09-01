@@ -126,6 +126,12 @@
       "dataMax": 99991231,
       "dataMin": 20260518
     },
+    "GPOS11-GRAO LFTB 2YF11": {
+      "codNeg": "GPOS11",
+      "nome": "GRAO LFTB 2YF11",
+      "dataMax": 99991231,
+      "dataMin": 20260901
+    },
     "HGBR11-NUIBOXXBRLIGF11": {
       "codNeg": "HGBR11",
       "nome": "NUIBOXXBRLIGF11",
