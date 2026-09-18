@@ -216,6 +216,12 @@
       "dataMax": 99991231,
       "dataMin": 20260714
     },
+    "LLBR11-NUSPLLBRHEDGF11": {
+      "codNeg": "LLBR11",
+      "nome": "NUSPLLBRHEDGF11",
+      "dataMax": 99991231,
+      "dataMin": 20260918
+    },
     "LLFT11-BTG TEVALFT F11": {
       "codNeg": "LLFT11",
       "nome": "BTG TEVALFT F11",
