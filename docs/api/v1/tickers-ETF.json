@@ -234,6 +234,12 @@
       "dataMax": 99991231,
       "dataMin": 20260327
     },
+    "LTMG11-LETO MARGEM F11": {
+      "codNeg": "LTMG11",
+      "nome": "LETO MARGEM F11",
+      "dataMax": 99991231,
+      "dataMin": 20260930
+    },
     "LTNB11-BTGP IRFM F11": {
       "codNeg": "LTNB11",
       "nome": "BTGP IRFM F11",
