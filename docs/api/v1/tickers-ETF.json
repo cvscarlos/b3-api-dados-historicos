@@ -419,6 +419,18 @@
       "nome": "TREND NTNB60F11",
       "dataMax": 99991231,
       "dataMin": 20260223
+    },
+    "XF3311-TREND DI 33 F11": {
+      "codNeg": "XF3311",
+      "nome": "TREND DI 33 F11",
+      "dataMax": 99991231,
+      "dataMin": 20261023
+    },
+    "XF3711-TREND DI 37 F11": {
+      "codNeg": "XF3711",
+      "nome": "TREND DI 37 F11",
+      "dataMax": 99991231,
+      "dataMin": 20261023
     }
   }
 }
