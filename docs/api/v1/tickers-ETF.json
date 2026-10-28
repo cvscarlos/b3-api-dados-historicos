@@ -96,6 +96,18 @@
       "dataMax": 99991231,
       "dataMin": 20220622
     },
+    "FBOV11-GLPG IBOV FAF11": {
+      "codNeg": "FBOV11",
+      "nome": "GLPG IBOV FAF11",
+      "dataMax": 99991231,
+      "dataMin": 20261028
+    },
+    "FDIV11-GLPG IDIV FAF11": {
+      "codNeg": "FDIV11",
+      "nome": "GLPG IDIV FAF11",
+      "dataMax": 99991231,
+      "dataMin": 20261028
+    },
     "FIXA11-BB FIXA11 F11": {
       "codNeg": "FIXA11",
       "nome": "BB FIXA11 F11",
@@ -107,6 +119,18 @@
       "nome": "MIRAE FIXA F11",
       "dataMax": 99991231,
       "dataMin": 20200629
+    },
+    "FMUN11-GLPG MUNDO FF11": {
+      "codNeg": "FMUN11",
+      "nome": "GLPG MUNDO FF11",
+      "dataMax": 99991231,
+      "dataMin": 20261028
+    },
+    "FSPY11-GLPG SP500 FF11": {
+      "codNeg": "FSPY11",
+      "nome": "GLPG SP500 FF11",
+      "dataMax": 99991231,
+      "dataMin": 20261028
     },
     "GICP11-GENIAL DEBDIF11": {
       "codNeg": "GICP11",
