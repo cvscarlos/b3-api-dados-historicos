@@ -156,6 +156,12 @@
       "dataMax": 99991231,
       "dataMin": 20260901
     },
+    "GPRE11-GRAO PRE 2Y F11": {
+      "codNeg": "GPRE11",
+      "nome": "GRAO PRE 2Y F11",
+      "dataMax": 99991231,
+      "dataMin": 20261112
+    },
     "HGBR11-NUIBOXXBRLIGF11": {
       "codNeg": "HGBR11",
       "nome": "NUIBOXXBRLIGF11",
