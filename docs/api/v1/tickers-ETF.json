@@ -366,6 +366,12 @@
       "dataMax": 99991231,
       "dataMin": 20241216
     },
+    "PLUS11-ETF BV PLUS F11": {
+      "codNeg": "PLUS11",
+      "nome": "ETF BV PLUS F11",
+      "dataMax": 99991231,
+      "dataMin": 20261118
+    },
     "POSB11-GLGP SELIC BF11": {
       "codNeg": "POSB11",
       "nome": "GLGP SELIC BF11",
