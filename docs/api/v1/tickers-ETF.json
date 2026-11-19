@@ -456,11 +456,29 @@
       "dataMax": 99991231,
       "dataMin": 20260223
     },
+    "XBB511-TREND IMA-B5F11": {
+      "codNeg": "XBB511",
+      "nome": "TREND IMA-B5F11",
+      "dataMax": 99991231,
+      "dataMin": 20261119
+    },
+    "XBIB11-TREND IMA-B F11": {
+      "codNeg": "XBIB11",
+      "nome": "TREND IMA-B F11",
+      "dataMax": 99991231,
+      "dataMin": 20261119
+    },
     "XF3311-TREND DI 33 F11": {
       "codNeg": "XF3311",
       "nome": "TREND DI 33 F11",
       "dataMax": 99991231,
       "dataMin": 20261023
+    },
+    "XF3511-TREND DI 35 F11": {
+      "codNeg": "XF3511",
+      "nome": "TREND DI 35 F11",
+      "dataMax": 99991231,
+      "dataMin": 20261119
     },
     "XF3711-TREND DI 37 F11": {
       "codNeg": "XF3711",
